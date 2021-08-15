@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <script>
+        (function (d) {
+            var config = {
+                    kitId: 'wvy7cod',
+                    scriptTimeout: 3000,
+                    async: true
+                },
+                h = d.documentElement,
+                t = setTimeout(function () {
+                    h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                }, config.scriptTimeout),
+                tk = d.createElement("script"),
+                f = false,
+                s = d.getElementsByTagName("script")[0],
+                a;
+            h.className += " wf-loading";
+            tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+            tk.async = true;
+            tk.onload = tk.onreadystatechange = function () {
+                a = this.readyState;
+                if (f || a && a != "complete" && a != "loaded") return;
+                f = true;
+                clearTimeout(t);
+                try {
+                    Typekit.load(config)
+                } catch (e) {}
+            };
+            s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js">
+    </script>
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <img class="line" src="img/line.png">
+            <img class="line" src="img/line.png">
+            <img src="img/circle.png">
+            <img src="img/circle.png">
+            <p>akeome</p>
+            <p>JUMPEI&nbsp;SUKO
+                <p>kotoyoro</p>
+        </header>
+        <section class="profile">
+            <h2 class="">profile</h2>
+            <div class="circle"></div>
+            <div class="text">
+                <p>2001/12/11日生まれの射手座<br>
+                    デジタルハリウッド大学一年<br>
+                    life is tech!ではひのでという名前でインターン中<br>
+                    WebDesigner/Designer/Photographer<br>
+                    老後は地方でゆっくり暮らしたい。</p>
+            </div>
+            <img class="line" src="img/line.png">
+        </section>
+        <section class="works">
+            <div class="works_sub_container">
+                <h2 class="">works</h2>
+                <div class="circle"></div>
+                <div class="text">
+                    <p>Website&Gallery</p>
+                </div>
+                <img class="img_circle" src="img/circle.png">
+                <img class="line" src="img/line.png">
+            </div>
+            <div class="works_main_container">
+                <div class="works_main">
+                    <div class="works_contents">
+                        <img class="works_detail" src="img/amayadori.png">
+                        <p class="works_cover">amayadori</p>
+                    </div>
+                    <img class="line" src="img/line.png">
+                </div>
+                <div class="works_main">
+                    <div class="works_contents">
+                        <img class="works_detail" src="img/rinne.png">
+                        <p class="works_cover">rinne</p>
+                    </div>
+                    <img class="line" src="img/line.png">
+                </div>
+                <div class="works_main">
+                    <div class="works_contents">
+                        <img class="works_detail" src="img/gallery.png">
+                        <p class="works_cover">gallery</p>
+                    </div>
+                    <img class="line" src="img/line.png">
+                </div>
+            </div>
+        </section>
+        <footer>&copy;2021&nbsp;JUMPEI&nbsp;SUKO</footer>
+    </div>
+</body>
+
+</html>
+<!-- vhで描いてるやつ調整すべき
+　　　classで書くやつ考えるべき
+    cssアニメーション最初チカチカつけたり消えたり
+    position absolute 1下　* -->
