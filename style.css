@@ -337,8 +337,12 @@ footer{
         padding: 0 20px;
         border-radius: 70px;
     }
+    .works_sub_container .text p{
+        font-size: 15px;
+        letter-spacing: 4px;
+    }
     .works .line{
-        right: 4.5vw;
+        right: -3vw;
         top:35vw
     }
     .works_main_container{
@@ -363,11 +367,15 @@ footer{
     .works_cover{
         width: 32vw;
         height: 32vw;
-        font-size: 1.2vw;
+        font-size: 13px;
+        letter-spacing: 2px;
         line-height: 32vw;
         background-image: url(img/circle_sp.png);
     }
     .works_main .line{
         margin-top: 28vw;
+    }
+    footer{
+        font-size: 15px;
     }
 }
