@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script>
         (function (d) {
             var config = {
@@ -43,26 +44,43 @@
 
 <body>
     <div class="wrap">
-        <header>
+        <header class="pc">
             <img class="line" src="img/line.png">
             <img class="line" src="img/line.png">
             <img src="img/circle.png">
             <img src="img/circle.png">
             <p>akeome</p>
             <p>JUMPEI&nbsp;SUKO
-                <p>kotoyoro</p>
+            <p>kotoyoro</p>
+        </header>
+        <header class="sp">
+            <img class="line" src="img/line_sp.png">
+            <img class="line" src="img/line_sp.png">
+            <img src="img/circle_sp.png">
+            <img src="img/circle_sp.png">
+            <p>akeome</p>
+            <p>JUMPEI&nbsp;SUKO
+            <p>kotoyoro</p>
         </header>
         <section class="profile">
             <h2 class="">profile</h2>
             <div class="circle"></div>
             <div class="text">
-                <p>2001/12/11日生まれの射手座<br>
+                <p class="pc">2001/12/11日生まれの射手座<br>
                     デジタルハリウッド大学一年<br>
                     life is tech!ではひのでという名前でインターン中<br>
                     WebDesigner/Designer/Photographer<br>
                     老後は地方でゆっくり暮らしたい。</p>
+                <p class="sp">2001/12/11日生まれの射手座<br>
+                    デジタルハリウッド大学一年<br>
+                    life is tech!ではひので<br>
+                    という名前でインターン中<br>
+                    WebDesigner/Designer</br>
+                    /Photographer<br>
+                    老後は地方でゆっくり暮らしたい。</p>
             </div>
-            <img class="line" src="img/line.png">
+            <img class="pc line" src="img/line.png">
+            <img class="sp line" src="img/line_sp.png">
         </section>
         <section class="works">
             <div class="works_sub_container">
@@ -71,8 +89,10 @@
                 <div class="text">
                     <p>Website&Gallery</p>
                 </div>
-                <img class="img_circle" src="img/circle.png">
-                <img class="line" src="img/line.png">
+                <img class="pc img_circle" src="img/circle.png">
+                <img class="pc line" src="img/line.png">
+                <img class="sp img_circle" src="img/circle_sp.png">
+                <img class="sp line" src="img/line_sp.png">
             </div>
             <div class="works_main_container">
                 <div class="works_main">
@@ -80,21 +100,24 @@
                         <img class="works_detail" src="img/amayadori.png">
                         <p class="works_cover">amayadori</p>
                     </div>
-                    <img class="line" src="img/line.png">
+                    <img class="pc line" src="img/line.png">
+                    <img class="sp line" src="img/line_sp.png">
                 </div>
                 <div class="works_main">
                     <div class="works_contents">
                         <img class="works_detail" src="img/rinne.png">
                         <p class="works_cover">rinne</p>
                     </div>
-                    <img class="line" src="img/line.png">
+                    <img class="pc line" src="img/line.png">
+                    <img class="sp line" src="img/line_sp.png">
                 </div>
                 <div class="works_main">
                     <div class="works_contents">
                         <img class="works_detail" src="img/gallery.png">
                         <p class="works_cover">gallery</p>
                     </div>
-                    <img class="line" src="img/line.png">
+                    <img class="pc line" src="img/line.png">
+                    <img class="sp line" src="img/line_sp.png">
                 </div>
             </div>
         </section>
