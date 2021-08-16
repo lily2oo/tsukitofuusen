@@ -222,6 +222,21 @@ footer{
     text-align: center;
     padding: 10px;
 }
+.fadeIn{
+  opacity: 0;
+}
+.fast{
+    transition: 1s ease-in-out 0s;
+}
+.normal{
+    transition: 1s ease-in-out 0.5s;
+}
+.slow{
+    transition: 1s ease-in-out 1s;
+}
+.fadeIn.is-show {
+  opacity: 1;
+}
 
 @media screen and (max-width: 480px) {
     .sp{
@@ -338,7 +353,7 @@ footer{
         border-radius: 70px;
     }
     .works_sub_container .text p{
-        font-size: 15px;
+        font-size: 13px;
         letter-spacing: 4px;
     }
     .works .line{

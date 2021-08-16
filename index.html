@@ -38,8 +38,8 @@
         })(document);
     </script>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js">
-    </script>
+    <script src="plugin/jquery.inview.min.js"></script>
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -63,9 +63,9 @@
             <p>kotoyoro</p>
         </header>
         <section class="profile">
-            <h2 class="">profile</h2>
-            <div class="circle"></div>
-            <div class="text">
+            <h2 class="inview_re fadeIn normal">profile</h2>
+            <div class="circle inview_re fadeIn fast"></div>
+            <div class="text inview_re fadeIn slow">
                 <p class="pc">2001/12/11日生まれの射手座<br>
                     デジタルハリウッド大学一年<br>
                     life is tech!ではひのでという名前でインターン中<br>
@@ -79,54 +79,53 @@
                     /Photographer<br>
                     老後は地方でゆっくり暮らしたい。</p>
             </div>
-            <img class="pc line" src="img/line.png">
-            <img class="sp line" src="img/line_sp.png">
+            <img class="pc line inview_re fadeIn" src="img/line.png">
+            <img class="sp line inview_re fadeIn" src="img/line_sp.png">
         </section>
         <section class="works">
             <div class="works_sub_container">
-                <h2 class="">works</h2>
-                <div class="circle"></div>
-                <div class="text">
+                <h2 class="inview_re fadeIn normal">works</h2>
+                <div class="circle inview_re fadeIn fast"></div>
+                <div class="text inview_re fadeIn slow">
                     <p>Website&Gallery</p>
                 </div>
                 <img class="pc img_circle" src="img/circle.png">
-                <img class="pc line" src="img/line.png">
+                <img class="pc line inview_re fadeIn" src="img/line.png">
                 <img class="sp img_circle" src="img/circle_sp.png">
-                <img class="sp line" src="img/line_sp.png">
+                <img class="sp line inview_re fadeIn" src="img/line_sp.png">
             </div>
             <div class="works_main_container">
-                <div class="works_main">
+                <div class="works_main inview_re fadeIn normal">
                     <div class="works_contents">
-                        <img class="works_detail" src="img/amayadori.png">
-                        <p class="works_cover">amayadori</p>
+                        <a href="https://amayadori-no-kangaekata.com" target="_blank"><img class="works_detail" src="img/amayadori.png"></a>
+                        <p class="works_cover amayadori_cover">amayadori</p>
                     </div>
                     <img class="pc line" src="img/line.png">
                     <img class="sp line" src="img/line_sp.png">
                 </div>
-                <div class="works_main">
+                <div class="works_main inview_re fadeIn normal">
                     <div class="works_contents">
-                        <img class="works_detail" src="img/rinne.png">
-                        <p class="works_cover">rinne</p>
+                        <a href="https://amayadori-no-kangaekata.com" target="_blank"><img class="works_detail" src="img/rinne.png"></a>
+                        <p class="works_cover rinne_cover">rinne</p>
                     </div>
                     <img class="pc line" src="img/line.png">
                     <img class="sp line" src="img/line_sp.png">
                 </div>
-                <div class="works_main">
+                <div class="works_main inview_re fadeIn normal">
                     <div class="works_contents">
-                        <img class="works_detail" src="img/gallery.png">
-                        <p class="works_cover">gallery</p>
+                        <a href="https://www.instagram.com/_lily_2oo_/" target="_blank"><img class="works_detail" src="img/gallery.png"></a>
+                        <p class="works_cover gallery_cover">gallery</p>
                     </div>
                     <img class="pc line" src="img/line.png">
                     <img class="sp line" src="img/line_sp.png">
                 </div>
             </div>
         </section>
-        <footer>&copy;2021&nbsp;JUMPEI&nbsp;SUKO</footer>
+        <footer class="inview_re fadeIn fast">&copy;2021&nbsp;JUMPEI&nbsp;SUKO</footer>
     </div>
 </body>
 
 </html>
-<!-- vhで描いてるやつ調整すべき
-　　　classで書くやつ考えるべき
+<!--
     cssアニメーション最初チカチカつけたり消えたり
-    position absolute 1下　* -->
+    -->
