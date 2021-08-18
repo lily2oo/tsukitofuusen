@@ -1,3 +1,11 @@
+$(window).on('load',function(){
+    var loading = function(){
+      $('#loading').fadeOut('fast');
+      $('.wrap').fadeIn('slow');
+    };
+    setTimeout(loading,5000); // setTimeoutを使って表示時間を設定する
+  });
+
 $(function () {
     $(".inview_re").on("inview", function (event, isInView) {
         if (isInView) {
