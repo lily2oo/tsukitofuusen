@@ -382,7 +382,15 @@ footer p{
     .pc{
         display: none;
     }
-    .loading_animation p{      
+    .loading_circle{
+        width: 50vw;
+        height: 50vw;
+    }
+    .loading_animation img{
+        width:50vw;
+    }
+    .loading_animation p{    
+        font-size: 2vw;  
         color:#bec5cb
     }
     .line{
