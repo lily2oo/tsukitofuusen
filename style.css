@@ -383,11 +383,11 @@ footer p{
         display: none;
     }
     .loading_circle{
-        width: 50vw;
-        height: 50vw;
+        width: 40vw;
+        height: 40vw;
     }
     .loading_animation img{
-        width:50vw;
+        width:40vw;
     }
     .loading_animation p{    
         font-size: 4vw;  
