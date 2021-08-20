@@ -343,7 +343,20 @@ footer{
     letter-spacing: 4px;
     text-shadow: #fff 1px 0 10px;
     text-align: center;
-    padding: 10px;
+    padding: 20px 10px;
+    position: relative;
+}
+footer img{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 0;
+    width: 100vw;
+}
+footer p{
+    position: relative;
+    z-index: 2;
 }
 .fadeIn{
   opacity: 0;
@@ -369,7 +382,9 @@ footer{
     .pc{
         display: none;
     }
-
+    .loading_animation p{      
+        color:#bec5cb
+    }
     .line{
         height: 25vh;
     }
@@ -515,5 +530,9 @@ footer{
     }
     footer{
         font-size: 15px;
+        padding: 10px 5px;
+    }
+    footer img{
+        width: 140vw;
     }
 }
